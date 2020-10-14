@@ -17,4 +17,8 @@ class OrderController extends Controller
     public function delivered(){
         return view('admin.deliveredorder');
     }
+    
+    public function edit(){
+        return view('admin.editorder');
+    }
 }

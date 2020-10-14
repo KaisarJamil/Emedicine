@@ -71,6 +71,7 @@ Route::group(['as'=>'admin.','prefix'=>'admin','middleware'=>['auth','admin']],f
 
     Route::get('pending', 'Admin\OrderController@index')->name('pending');
     Route::get('delivered', 'Admin\OrderController@delivered')->name('delivered');
+    Route::get('edit/order', 'Admin\OrderController@edit')->name('edit.order');
 
     Route::get('add/medicine', 'Admin\MedicineController@index')->name('add.medicine');
     Route::get('medicine/list', 'Admin\MedicineController@medicinelist')->name('medicine.list');
