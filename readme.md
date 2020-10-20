@@ -1,6 +1,8 @@
 E‑Medicine is a online medicine shop where anyone can buy medicine from anywhere.
 This project is implemented by using HTML, CSS, Laravel and MySQL.
 
+video : https://www.youtube.com/embed/SoDM25C17_U
+
 Here are some screenshots of this project.
 
 Homepage: 
